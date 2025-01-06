@@ -7,7 +7,7 @@ def twelve_english_out(values:list):
     os.system('cls')  # Windows 用 'cls'，Linux/macOS 用 'clear'
     for value in values:
         print(
-            f'\n\n\n\n{value[0]:<30}{value[1]:<30}{value[2]:<30}\n'
+            f'\n\n\n\n\t{value[0]:<30}{value[1]:<30}{value[2]:<30}\n'
             f'\t{value[3]:<30}{value[4]:<30}{value[5]:<30}\n'
             f'\t{value[6]:<30}{value[7]:<30}{value[8]:<30}\n'
             f'\t{value[9]:<30}{value[10]:<30}{value[11]:<30}\n'
